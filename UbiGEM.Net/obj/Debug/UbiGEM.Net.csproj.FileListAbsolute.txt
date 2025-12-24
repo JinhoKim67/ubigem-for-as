@@ -1,0 +1,14 @@
+C:\workspace\com.ubisam.projects.ubigem.basic\BIN\UbiGEM.Net.dll
+C:\workspace\com.ubisam.projects.ubigem.basic\BIN\UbiGEM.Net.pdb
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiGEM.Net\obj\Debug\UbiGEM.Net.csproj.AssemblyReference.cache
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiGEM.Net\obj\Debug\UbiGEM.Net.g.resources
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiGEM.Net\obj\Debug\UbiGEM.Net.Properties.Resources.resources
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiGEM.Net\obj\Debug\UbiGEM.Net.Resources.CEIDString.resources
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiGEM.Net\obj\Debug\UbiGEM.Net.Resources.ECIDString.resources
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiGEM.Net\obj\Debug\UbiGEM.Net.Resources.XML.resources
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiGEM.Net\obj\Debug\UbiGEM.Net.csproj.GenerateResource.cache
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiGEM.Net\obj\Debug\UbiGEM.Net.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiGEM.Net\obj\Debug\UbiGEM.Net.csproj.CoreCompileInputs.cache
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiGEM.Net\obj\Debug\UbiGEM.Net.csproj.Up2Date
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiGEM.Net\obj\Debug\UbiGEM.Net.dll
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiGEM.Net\obj\Debug\UbiGEM.Net.pdb

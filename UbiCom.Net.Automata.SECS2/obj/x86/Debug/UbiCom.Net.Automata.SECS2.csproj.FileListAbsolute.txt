@@ -1,0 +1,7 @@
+C:\workspace\com.ubisam.projects.ubigem.basic\BIN\UbiCom.Net.Automata.SECS2.dll
+C:\workspace\com.ubisam.projects.ubigem.basic\BIN\UbiCom.Net.Automata.SECS2.pdb
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiCom.Net.Automata.SECS2\obj\x86\Debug\UbiCom.Net.Automata.SECS2.csproj.AssemblyReference.cache
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiCom.Net.Automata.SECS2\obj\x86\Debug\UbiCom.Net.Automata.SECS2.csproj.CoreCompileInputs.cache
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiCom.Net.Automata.SECS2\obj\x86\Debug\UbiCom.N.9E4D920E.Up2Date
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiCom.Net.Automata.SECS2\obj\x86\Debug\UbiCom.Net.Automata.SECS2.dll
+C:\workspace\com.ubisam.projects.ubigem.basic\UbiCom.Net.Automata.SECS2\obj\x86\Debug\UbiCom.Net.Automata.SECS2.pdb

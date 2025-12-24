@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC713D1-CB42-45B6-83FA-0BCC373AA82C}|UbiGEM.Net.Simulator.Host\\UbiGEM.Net.Simulator.Host.csproj|c:\\workspace\\com.ubisam.projects.ubigem.basic\\ubigem.net.simulator.host\\common\\messageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC713D1-CB42-45B6-83FA-0BCC373AA82C}|UbiGEM.Net.Simulator.Host\\UbiGEM.Net.Simulator.Host.csproj|solutionrelative:ubigem.net.simulator.host\\common\\messageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC713D1-CB42-45B6-83FA-0BCC373AA82C}|UbiGEM.Net.Simulator.Host\\UbiGEM.Net.Simulator.Host.csproj|C:\\workspace\\com.ubisam.projects.ubigem.basic\\ubigem.net.simulator.host\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9CC713D1-CB42-45B6-83FA-0BCC373AA82C}|UbiGEM.Net.Simulator.Host\\UbiGEM.Net.Simulator.Host.csproj|solutionrelative:ubigem.net.simulator.host\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B668C3-B9E8-4E66-9FE8-E0EF29CFECBC}|UbiGEM.Net\\UbiGEM.Net.csproj|C:\\workspace\\com.ubisam.projects.ubigem.basic\\ubigem.net\\tool\\configfilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B668C3-B9E8-4E66-9FE8-E0EF29CFECBC}|UbiGEM.Net\\UbiGEM.Net.csproj|solutionrelative:ubigem.net\\tool\\configfilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B668C3-B9E8-4E66-9FE8-E0EF29CFECBC}|UbiGEM.Net\\UbiGEM.Net.csproj|C:\\workspace\\com.ubisam.projects.ubigem.basic\\ubigem.net\\resources\\predefined.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{36B668C3-B9E8-4E66-9FE8-E0EF29CFECBC}|UbiGEM.Net\\UbiGEM.Net.csproj|solutionrelative:ubigem.net\\resources\\predefined.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96331E43-783A-480C-AF1B-90408AE5ED83}|UbiSam.GEM.Sample.CSharp\\UbiSam.GEM.Sample.CSharp.csproj|C:\\workspace\\com.ubisam.projects.ubigem.basic\\ubisam.gem.sample.csharp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96331E43-783A-480C-AF1B-90408AE5ED83}|UbiSam.GEM.Sample.CSharp\\UbiSam.GEM.Sample.CSharp.csproj|solutionrelative:ubisam.gem.sample.csharp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B668C3-B9E8-4E66-9FE8-E0EF29CFECBC}|UbiGEM.Net\\UbiGEM.Net.csproj|C:\\workspace\\com.ubisam.projects.ubigem.basic\\ubigem.net\\driver\\gemdriver.sender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B668C3-B9E8-4E66-9FE8-E0EF29CFECBC}|UbiGEM.Net\\UbiGEM.Net.csproj|solutionrelative:ubigem.net\\driver\\gemdriver.sender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B668C3-B9E8-4E66-9FE8-E0EF29CFECBC}|UbiGEM.Net\\UbiGEM.Net.csproj|C:\\workspace\\com.ubisam.projects.ubigem.basic\\ubigem.net\\driver\\gemdriver.logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B668C3-B9E8-4E66-9FE8-E0EF29CFECBC}|UbiGEM.Net\\UbiGEM.Net.csproj|solutionrelative:ubigem.net\\driver\\gemdriver.logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96331E43-783A-480C-AF1B-90408AE5ED83}|UbiSam.GEM.Sample.CSharp\\UbiSam.GEM.Sample.CSharp.csproj|C:\\workspace\\com.ubisam.projects.ubigem.basic\\ubisam.gem.sample.csharp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{96331E43-783A-480C-AF1B-90408AE5ED83}|UbiSam.GEM.Sample.CSharp\\UbiSam.GEM.Sample.CSharp.csproj|solutionrelative:ubisam.gem.sample.csharp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageProcessor.cs",
+              "DocumentMoniker": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiGEM.Net.Simulator.Host\\Common\\MessageProcessor.cs",
+              "RelativeDocumentMoniker": "UbiGEM.Net.Simulator.Host\\Common\\MessageProcessor.cs",
+              "ToolTip": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiGEM.Net.Simulator.Host\\Common\\MessageProcessor.cs",
+              "RelativeToolTip": "UbiGEM.Net.Simulator.Host\\Common\\MessageProcessor.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T08:00:53.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiGEM.Net.Simulator.Host\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UbiGEM.Net.Simulator.Host\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiGEM.Net.Simulator.Host\\MainWindow.xaml.cs",
+              "RelativeToolTip": "UbiGEM.Net.Simulator.Host\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAE0BAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T07:59:25.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfigFileManager.cs",
+              "DocumentMoniker": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiGEM.Net\\Tool\\ConfigFileManager.cs",
+              "RelativeDocumentMoniker": "UbiGEM.Net\\Tool\\ConfigFileManager.cs",
+              "ToolTip": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiGEM.Net\\Tool\\ConfigFileManager.cs",
+              "RelativeToolTip": "UbiGEM.Net\\Tool\\ConfigFileManager.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAUwMAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T07:55:39.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PreDefined.xml",
+              "DocumentMoniker": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiGEM.Net\\Resources\\PreDefined.xml",
+              "RelativeDocumentMoniker": "UbiGEM.Net\\Resources\\PreDefined.xml",
+              "ToolTip": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiGEM.Net\\Resources\\PreDefined.xml",
+              "RelativeToolTip": "UbiGEM.Net\\Resources\\PreDefined.xml",
+              "ViewState": "AgIAAH8BAAAAAAAAAAAqwIwBAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-12-22T07:54:02.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GemDriver.Logic.cs",
+              "DocumentMoniker": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiGEM.Net\\Driver\\GemDriver.Logic.cs",
+              "RelativeDocumentMoniker": "UbiGEM.Net\\Driver\\GemDriver.Logic.cs",
+              "ToolTip": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiGEM.Net\\Driver\\GemDriver.Logic.cs",
+              "RelativeToolTip": "UbiGEM.Net\\Driver\\GemDriver.Logic.cs",
+              "ViewState": "AgIAADsGAAAAAAAAAAAowIIGAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T00:20:13.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiSam.GEM.Sample.CSharp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UbiSam.GEM.Sample.CSharp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiSam.GEM.Sample.CSharp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "UbiSam.GEM.Sample.CSharp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T00:02:22.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiSam.GEM.Sample.CSharp\\App.xaml",
+              "RelativeDocumentMoniker": "UbiSam.GEM.Sample.CSharp\\App.xaml",
+              "ToolTip": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiSam.GEM.Sample.CSharp\\App.xaml",
+              "RelativeToolTip": "UbiSam.GEM.Sample.CSharp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T23:57:20.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GemDriver.Sender.cs",
+              "DocumentMoniker": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiGEM.Net\\Driver\\GemDriver.Sender.cs",
+              "RelativeDocumentMoniker": "UbiGEM.Net\\Driver\\GemDriver.Sender.cs",
+              "ToolTip": "C:\\workspace\\com.ubisam.projects.ubigem.basic\\UbiGEM.Net\\Driver\\GemDriver.Sender.cs",
+              "RelativeToolTip": "UbiGEM.Net\\Driver\\GemDriver.Sender.cs",
+              "ViewState": "AgIAAF0QAAAAAAAAAAAowHEQAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T09:05:26.602Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
