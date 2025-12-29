@@ -308,6 +308,7 @@ namespace UbiSam.Net.KeyLock
 #if DEBUG
             this.USBKeyLockWaitDuration = 2 * 60 * 1000;
             this.USBKeyLockWarningDuration = 1 * 60 * 1000;
+            return; // KJH added at 2025/12/29
 #endif
             this._licenseFailWaitTimer.Stop();
 

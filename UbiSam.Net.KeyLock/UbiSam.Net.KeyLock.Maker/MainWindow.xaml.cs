@@ -280,6 +280,7 @@ namespace UbiSam.Net.KeyLock.Maker
         {
             bool progress;
             string errorText;
+            bool dryRun = true; // KJH added
 
             StringBuilder sbProductMakingInfo;
 
@@ -294,6 +295,34 @@ namespace UbiSam.Net.KeyLock.Maker
             }
             else
             {
+                // TODO: 운영 시 false로 바꾸거나 UI 체크박스로 대체
+
+                progress = false;
+                errorText = string.Empty;
+                sbProductMakingInfo = new StringBuilder();
+
+                if (this._nonProgress == false)
+                {
+                    MessageBox.Show("not completed before work");
+                    return;
+                }
+
+                // KJH added
+                // ✅ Dry-run이면: 키락 체크(선택/카운트/코드검증/Confirm) 생략 + 실제 작업 생략
+                if (dryRun)
+                {
+                    this.NonProgress = false;
+                    this._stopProgress = false;
+
+                    System.Threading.Thread t = new System.Threading.Thread(new System.Threading.ThreadStart(MakeUSBKeylockWorker))
+                    {
+                        Name = "MakeUSBKeylockWorker_DryRun"
+                    };
+                    t.Start();
+                    return;
+                }
+                // KJH end
+
                 progress = true;
 
                 if (progress == true)

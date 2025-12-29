@@ -1,0 +1,14 @@
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\Release\UbiGEM.Net.csproj.AssemblyReference.cache
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\Release\UbiGEM.Net.g.resources
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\Release\UbiGEM.Net.Properties.Resources.resources
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\Release\UbiGEM.Net.Resources.CEIDString.resources
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\Release\UbiGEM.Net.Resources.ECIDString.resources
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\Release\UbiGEM.Net.Resources.XML.resources
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\Release\UbiGEM.Net.csproj.GenerateResource.cache
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\Release\UbiGEM.Net.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\Release\UbiGEM.Net.csproj.CoreCompileInputs.cache
+C:\workspace\ubigem-for-as\BIN\UbiGEM.Net.dll
+C:\workspace\ubigem-for-as\BIN\UbiGEM.Net.pdb
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\Release\UbiGEM.Net.csproj.Up2Date
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\Release\UbiGEM.Net.dll
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\Release\UbiGEM.Net.pdb

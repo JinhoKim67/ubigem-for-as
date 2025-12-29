@@ -1,0 +1,17 @@
+C:\workspace\ubigem-for-as\BIN\UbiSam.Net.KeyLock.Maker.exe.config
+C:\workspace\ubigem-for-as\BIN\UbiSam.Net.KeyLock.Maker.exe
+C:\workspace\ubigem-for-as\BIN\UbiSam.Net.KeyLock.Maker.pdb
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\UbiSam.Net.KeyLock.Maker.csproj.AssemblyReference.cache
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\MainWindow.g.cs
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\App.g.cs
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\UbiSam.Net.KeyLock.Maker_MarkupCompile.cache
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\UbiSam.Net.KeyLock.Maker_MarkupCompile.lref
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\App.baml
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\MainWindow.baml
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\UbiSam.Net.KeyLock.Maker.g.resources
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\UbiSam.Net.KeyLock.Maker.Properties.Resources.resources
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\UbiSam.Net.KeyLock.Maker.csproj.GenerateResource.cache
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\UbiSam.Net.KeyLock.Maker.csproj.CoreCompileInputs.cache
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\UbiSam.N.F553DFB0.Up2Date
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\UbiSam.Net.KeyLock.Maker.exe
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\Debug\UbiSam.Net.KeyLock.Maker.pdb

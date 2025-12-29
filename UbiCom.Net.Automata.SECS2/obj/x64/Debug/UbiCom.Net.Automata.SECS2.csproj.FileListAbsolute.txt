@@ -1,0 +1,7 @@
+C:\BIN\Build\UbiGEM\Simulator\UbiCom.Net.Automata.SECS2.dll
+C:\BIN\Build\UbiGEM\Simulator\UbiCom.Net.Automata.SECS2.pdb
+C:\workspace\ubigem-for-as\UbiCom.Net.Automata.SECS2\obj\x64\Debug\UbiCom.Net.Automata.SECS2.csproj.AssemblyReference.cache
+C:\workspace\ubigem-for-as\UbiCom.Net.Automata.SECS2\obj\x64\Debug\UbiCom.Net.Automata.SECS2.csproj.CoreCompileInputs.cache
+C:\workspace\ubigem-for-as\UbiCom.Net.Automata.SECS2\obj\x64\Debug\UbiCom.N.9E4D920E.Up2Date
+C:\workspace\ubigem-for-as\UbiCom.Net.Automata.SECS2\obj\x64\Debug\UbiCom.Net.Automata.SECS2.dll
+C:\workspace\ubigem-for-as\UbiCom.Net.Automata.SECS2\obj\x64\Debug\UbiCom.Net.Automata.SECS2.pdb

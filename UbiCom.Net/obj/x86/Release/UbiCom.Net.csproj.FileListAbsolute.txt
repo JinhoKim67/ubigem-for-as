@@ -1,0 +1,12 @@
+C:\workspace\ubigem-for-as\UbiCom.Net\obj\x86\Release\UbiCom.Net.csproj.AssemblyReference.cache
+C:\workspace\ubigem-for-as\UbiCom.Net\obj\x86\Release\UbiCom.Net.Resources.ErrorString.resources
+C:\workspace\ubigem-for-as\UbiCom.Net\obj\x86\Release\UbiCom.Net.csproj.GenerateResource.cache
+C:\workspace\ubigem-for-as\UbiCom.Net\obj\x86\Release\UbiCom.Net.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\ubigem-for-as\UbiCom.Net\obj\x86\Release\UbiCom.Net.csproj.CoreCompileInputs.cache
+C:\workspace\ubigem-for-as\UbiCom.Net\bin\x86\Release\UbiCom.Net.dll
+C:\workspace\ubigem-for-as\UbiCom.Net\bin\x86\Release\UbiCom.Net.pdb
+C:\workspace\ubigem-for-as\UbiCom.Net\bin\x86\Release\UbiSam.Net.KeyLock.dll
+C:\workspace\ubigem-for-as\UbiCom.Net\bin\x86\Release\UbiSam.Net.KeyLock.pdb
+C:\workspace\ubigem-for-as\UbiCom.Net\obj\x86\Release\UbiCom.Net.csproj.Up2Date
+C:\workspace\ubigem-for-as\UbiCom.Net\obj\x86\Release\UbiCom.Net.dll
+C:\workspace\ubigem-for-as\UbiCom.Net\obj\x86\Release\UbiCom.Net.pdb

@@ -420,37 +420,6 @@
     <DataItem Name="XYPOS" PreDefined="true" Format="I1" MultiFormat="false" Length="1" Description="X and Y Coordinate Position. Must be in (X,Y) order." />
     <DataItem Name="YDIES" PreDefined="true" Format="F4" MultiFormat="false" Length="1" Description="Y-axis die size (index)." />
   </DataDictionary>
-  <EquipmentConstants>
-    <ECID ID="101" Name="InitCommunicationState" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="1" Max="7" Value="3" Default="7" Description="" MappingEnum="InitCommunicationStateType">
-      <MappingValues>
-        <MappingValue Name="Disabled" Value="1" />
-        <MappingValue Name="Enabled" Value="2" />
-        <MappingValue Name="NotCommunication" Value="3" />
-        <MappingValue Name="WaitCRFromHost" Value="4" />
-        <MappingValue Name="WaitDelay" Value="5" />
-        <MappingValue Name="WaitCRA" Value="6" />
-        <MappingValue Name="Communicating" Value="7" />
-      </MappingValues>
-    </ECID>
-    <ECID ID="102" Name="EstablishCommunicationsTimeout" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="" Min="" Max="" Value="10" Default="10" Description="The length of time, in seconds, of the interval between attempts to send S1F13 when establishing communications." MappingEnum="EstablishCommunicationsTimeoutType" />
-    <ECID ID="103" Name="AreYouThereTimeout" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="" Max="" Value="10" Default="10" Description="" MappingEnum="AreYouThereTimeoutType" />
-    <ECID ID="104" Name="TimeFormat" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="" Max="" Value="0" Default="0" Description="The setting of this ECV controls whether the equipment shall use use the variable item CLOCK and the data items STIME, TIMESTAMP, and TIME in  12-byte, 16-byte, or Extended format." MappingEnum="TimeFormatType" />
-    <ECID ID="105" Name="InitControlState" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="1" Max="2" Value="5" Default="1" Description="" MappingEnum="InitControlStateType" />
-    <ECID ID="106" Name="OffLineSubState" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="" Max="" Value="1" Default="1" Description="" MappingEnum="OffLineSubStateType" />
-    <ECID ID="107" Name="OnLineFailState" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="" Max="" Value="1" Default="1" Description="" MappingEnum="OnLineFailStateType" />
-    <ECID ID="108" Name="OnLineSubState" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="4" Max="5" Value="5" Default="0" Description="" MappingEnum="OnLineSubStateType" />
-    <ECID ID="109" Name="DeviceID" Class="ECV" PreDefined="true" Use="true" Format="A" Length="20" Unit="" Min="" Max="" Value="1" Default="0" Description="" MappingEnum="DeviceIDType" />
-    <ECID ID="110" Name="IPAddress" Class="ECV" PreDefined="true" Use="true" Format="A" Length="16" Unit="" Min="" Max="" Value="127.0.0.1" Default="127.0.0.1" Description="" MappingEnum="IPAddressType" />
-    <ECID ID="111" Name="PortNumber" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="" Min="" Max="" Value="7001" Default="0" Description="" MappingEnum="PortNumberType" />
-    <ECID ID="112" Name="ActiveMode" Class="ECV" PreDefined="true" Use="true" Format="Boolean" Length="1" Unit="" Min="" Max="" Value="false" Default="true" Description="" MappingEnum="ActiveModeType" />
-    <ECID ID="113" Name="T3Timeout" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="seconds" Min="1" Max="120" Value="45" Default="45" Description="" MappingEnum="T3TimeoutType" />
-    <ECID ID="114" Name="T5Timeout" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="seconds" Min="1" Max="240" Value="10" Default="10" Description="" MappingEnum="T5TimeoutType" />
-    <ECID ID="115" Name="T6Timeout" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="seconds" Min="1" Max="240" Value="5" Default="5" Description="" MappingEnum="T6TimeoutType" />
-    <ECID ID="116" Name="T7Timeout" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="seconds" Min="1" Max="240" Value="10" Default="10" Description="" MappingEnum="T7TimeoutType" />
-    <ECID ID="117" Name="T8Timeout" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="seconds" Min="1" Max="120" Value="5" Default="5" Description="" MappingEnum="T8TimeoutType" />
-    <ECID ID="118" Name="LinkTestInterval" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="" Max="" Value="30" Default="30" Description="" MappingEnum="LinkTestIntervalType" />
-    <ECID ID="119" Name="HeartbeatInterval" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="" Max="" Value="30" Default="30" Description="" MappingEnum="HeartbeatIntervalType" />
-  </EquipmentConstants>
   <Variables>
     <VID ID="1" Name="Clock" Class="SV" PreDefined="true" Use="true" Format="A" Length="16" Unit="YYYYMMDDhhmmsscc" Min="" Max="" Default="0" Description="" />
     <VID ID="10" Name="PPChangeName" Class="DVVAL" PreDefined="true" Use="true" Format="A" Length="20" Unit="" Min="" Max="" Default="0" Description="" />
@@ -547,4 +516,35 @@
     </UserCustomMessage>
   </SECSMessage>
   <Units />
+  <EquipmentConstants>
+    <ECID ID="101" Name="InitCommunicationState" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="1" Max="7" Value="3" Default="7" Description="">
+      <MappingValues>
+        <MappingValue Name="Disabled" Value="1" />
+        <MappingValue Name="Enabled" Value="2" />
+        <MappingValue Name="NotCommunication" Value="3" />
+        <MappingValue Name="WaitCRFromHost" Value="4" />
+        <MappingValue Name="WaitDelay" Value="5" />
+        <MappingValue Name="WaitCRA" Value="6" />
+        <MappingValue Name="Communicating" Value="7" />
+      </MappingValues>
+    </ECID>
+    <ECID ID="102" Name="EstablishCommunicationsTimeout" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="" Min="" Max="" Value="10" Default="10" Description="The length of time, in seconds, of the interval between attempts to send S1F13 when establishing communications." />
+    <ECID ID="103" Name="AreYouThereTimeout" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="" Max="" Value="10" Default="10" Description="" />
+    <ECID ID="104" Name="TimeFormat" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="" Max="" Value="0" Default="0" Description="The setting of this ECV controls whether the equipment shall use use the variable item CLOCK and the data items STIME, TIMESTAMP, and TIME in  12-byte, 16-byte, or Extended format." />
+    <ECID ID="105" Name="InitControlState" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="1" Max="2" Value="5" Default="1" Description="" />
+    <ECID ID="106" Name="OffLineSubState" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="" Max="" Value="1" Default="1" Description="" />
+    <ECID ID="107" Name="OnLineFailState" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="" Max="" Value="1" Default="1" Description="" />
+    <ECID ID="108" Name="OnLineSubState" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="4" Max="5" Value="5" Default="0" Description="" />
+    <ECID ID="109" Name="DeviceID" Class="ECV" PreDefined="true" Use="true" Format="A" Length="20" Unit="" Min="" Max="" Value="1" Default="0" Description="" />
+    <ECID ID="110" Name="IPAddress" Class="ECV" PreDefined="true" Use="true" Format="A" Length="16" Unit="" Min="" Max="" Value="127.0.0.1" Default="127.0.0.1" Description="" />
+    <ECID ID="111" Name="PortNumber" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="" Min="" Max="" Value="7001" Default="0" Description="" />
+    <ECID ID="112" Name="ActiveMode" Class="ECV" PreDefined="true" Use="true" Format="Boolean" Length="1" Unit="" Min="" Max="" Value="False" Default="True" Description="" />
+    <ECID ID="113" Name="T3Timeout" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="seconds" Min="1" Max="120" Value="45" Default="45" Description="" />
+    <ECID ID="114" Name="T5Timeout" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="seconds" Min="1" Max="240" Value="10" Default="10" Description="" />
+    <ECID ID="115" Name="T6Timeout" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="seconds" Min="1" Max="240" Value="5" Default="5" Description="" />
+    <ECID ID="116" Name="T7Timeout" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="seconds" Min="1" Max="240" Value="10" Default="10" Description="" />
+    <ECID ID="117" Name="T8Timeout" Class="ECV" PreDefined="true" Use="true" Format="U2" Length="1" Unit="seconds" Min="1" Max="120" Value="5" Default="5" Description="" />
+    <ECID ID="118" Name="LinkTestInterval" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="" Max="" Value="30" Default="30" Description="" />
+    <ECID ID="119" Name="HeartbeatInterval" Class="ECV" PreDefined="true" Use="true" Format="U1" Length="1" Unit="" Min="" Max="" Value="30" Default="30" Description="" />
+  </EquipmentConstants>
 </UbiGEM>

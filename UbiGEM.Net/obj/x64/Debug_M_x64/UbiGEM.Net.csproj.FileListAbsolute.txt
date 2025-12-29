@@ -1,0 +1,9 @@
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\x64\Debug_M_x64\UbiGEM.Net.csproj.AssemblyReference.cache
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\x64\Debug_M_x64\UbiGEM.Net.g.resources
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\x64\Debug_M_x64\UbiGEM.Net.Properties.Resources.resources
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\x64\Debug_M_x64\UbiGEM.Net.Resources.CEIDString.resources
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\x64\Debug_M_x64\UbiGEM.Net.Resources.ECIDString.resources
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\x64\Debug_M_x64\UbiGEM.Net.Resources.XML.resources
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\x64\Debug_M_x64\UbiGEM.Net.csproj.GenerateResource.cache
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\x64\Debug_M_x64\UbiGEM.Net.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\ubigem-for-as\UbiGEM.Net\obj\x64\Debug_M_x64\UbiGEM.Net.csproj.CoreCompileInputs.cache

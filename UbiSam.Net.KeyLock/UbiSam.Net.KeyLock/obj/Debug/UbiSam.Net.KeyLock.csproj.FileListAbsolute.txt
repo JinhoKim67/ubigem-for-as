@@ -4,3 +4,9 @@ C:\workspace\com.ubisam.projects.ubigem.basic\UbiSam.Net.KeyLock\UbiSam.Net.KeyL
 C:\workspace\com.ubisam.projects.ubigem.basic\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock\obj\Debug\UbiSam.Net.KeyLock.csproj.CoreCompileInputs.cache
 C:\workspace\com.ubisam.projects.ubigem.basic\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock\obj\Debug\UbiSam.Net.KeyLock.dll
 C:\workspace\com.ubisam.projects.ubigem.basic\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock\obj\Debug\UbiSam.Net.KeyLock.pdb
+C:\workspace\ubigem-for-as\BIN\UbiSam.Net.KeyLock.dll
+C:\workspace\ubigem-for-as\BIN\UbiSam.Net.KeyLock.pdb
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock\obj\Debug\UbiSam.Net.KeyLock.csproj.AssemblyReference.cache
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock\obj\Debug\UbiSam.Net.KeyLock.csproj.CoreCompileInputs.cache
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock\obj\Debug\UbiSam.Net.KeyLock.dll
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock\obj\Debug\UbiSam.Net.KeyLock.pdb

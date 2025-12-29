@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UbiGEM.Net.Simulator.Host</RootNamespace>
     <AssemblyName>UbiGEM.Net.Simulator.Host</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
@@ -85,47 +85,31 @@
     </Reference>
     <Reference Include="UbiCom.Net, Version=1.0.2.2, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\BIN\Confused\UbiCom.Net.dll</HintPath>
+      <HintPath>..\BIN\UbiCom.Net.dll</HintPath>
     </Reference>
-    <Reference Include="UbiGEM.Net, Version=2.0.2.9, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\BIN\Confused\UbiGEM.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="UbiSam.Common, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UbiSam.Common">
       <HintPath>..\BIN\UbiSam.Common.dll</HintPath>
     </Reference>
-    <Reference Include="UbiSam.Common.Colors.WPF, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UbiSam.Common.Colors.WPF">
       <HintPath>..\BIN\UbiSam.Common.Colors.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="UbiSam.Common.Controls, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UbiSam.Common.Controls">
       <HintPath>..\BIN\UbiSam.Common.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="UbiSam.Common.Controls.WPF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UbiSam.Common.Controls.WPF">
       <HintPath>..\BIN\UbiSam.Common.Controls.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="UbiSam.Common.Models, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UbiSam.Common.Models">
       <HintPath>..\BIN\UbiSam.Common.Models.dll</HintPath>
     </Reference>
-    <Reference Include="UbiSam.Common.MVVM, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UbiSam.Common.MVVM">
       <HintPath>..\BIN\UbiSam.Common.MVVM.dll</HintPath>
     </Reference>
-    <Reference Include="UbiSam.Common.Themes.Dark, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UbiSam.Common.Themes.Dark">
       <HintPath>..\BIN\UbiSam.Common.Themes.Dark.dll</HintPath>
     </Reference>
-    <Reference Include="UbiSam.Common.Themes.WPF, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UbiSam.Common.Themes.WPF">
       <HintPath>..\BIN\UbiSam.Common.Themes.WPF.dll</HintPath>
-    </Reference>
-    <Reference Include="UbiSam.Net.KeyLock, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\BIN\Confused\UbiSam.Net.KeyLock.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
@@ -807,6 +791,14 @@
     <ProjectReference Include="..\UbiCom.Net.Automata.SECS2\UbiCom.Net.Automata.SECS2.csproj">
       <Project>{ed1e60df-7b77-4411-8216-ef99b1dda997}</Project>
       <Name>UbiCom.Net.Automata.SECS2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UbiGEM.Net\UbiGEM.Net.csproj">
+      <Project>{36b668c3-b9e8-4e66-9fe8-e0ef29cfecbc}</Project>
+      <Name>UbiGEM.Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.csproj">
+      <Project>{9fbfcb0e-c977-4275-b95e-e24e4c46d697}</Project>
+      <Name>UbiSam.Net.KeyLock</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
