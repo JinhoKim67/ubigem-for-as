@@ -30,7 +30,7 @@
    : 빌드 에라 시 CPU 모드에 따른 에라가 대부분임 (디버깅 & 테스트용이면 CPU를 하나로 통일하여 빌드 필요)
 3. ** `UbiCom.Net` 및 `UbiGEM.Net`을 Debug 모드 빌드**   
    : Confuser.CI\LI.exe 실행 에라 발생 시, 
-     ..\UbiCom.Net\UbiCom.Net.csproj 화일과 ..\UbiCom.Net\UbiGEM.Net.csproj 화일 모두에서 <br>
+     ..\UbiCom.Net\UbiCom.Net.csproj 화일과 ..\UbiGEM.Net\UbiGEM.Net.csproj 화일 모두에서 <br>
      <PostBuildEvent>"ConfuserEx\Confuser.CLI.exe -n -o "..\BIN" "..\BIN\ConfuserEx\UbiGEM.crproj"</PostBuildEvent>를 <br>
      <PostBuildEvent>"$(SolutionDir)BIN\ConfuserEx\Confuser.CLI.exe" -n -o "$(SolutionDir)BIN" "$(SolutionDir)BIN\ConfuserEx\UbiGEM.crproj"</PostBuildEvent> <br>
      로 수정하고 다시 빌드함.
