@@ -8,13 +8,3 @@ C:\workspace\com.ubisam.projects.ubigem.basic\UbiCom.Net\obj\Debug\UbiCom.Net.cs
 C:\workspace\com.ubisam.projects.ubigem.basic\UbiCom.Net\obj\Debug\UbiCom.Net.csproj.Up2Date
 C:\workspace\com.ubisam.projects.ubigem.basic\UbiCom.Net\obj\Debug\UbiCom.Net.dll
 C:\workspace\com.ubisam.projects.ubigem.basic\UbiCom.Net\obj\Debug\UbiCom.Net.pdb
-C:\workspace\ubigem-for-as\BIN\UbiCom.Net.dll
-C:\workspace\ubigem-for-as\BIN\UbiCom.Net.pdb
-C:\workspace\ubigem-for-as\UbiCom.Net\obj\Debug\UbiCom.Net.csproj.AssemblyReference.cache
-C:\workspace\ubigem-for-as\UbiCom.Net\obj\Debug\UbiCom.Net.Resources.ErrorString.resources
-C:\workspace\ubigem-for-as\UbiCom.Net\obj\Debug\UbiCom.Net.csproj.GenerateResource.cache
-C:\workspace\ubigem-for-as\UbiCom.Net\obj\Debug\UbiCom.Net.GeneratedMSBuildEditorConfig.editorconfig
-C:\workspace\ubigem-for-as\UbiCom.Net\obj\Debug\UbiCom.Net.csproj.CoreCompileInputs.cache
-C:\workspace\ubigem-for-as\UbiCom.Net\obj\Debug\UbiCom.Net.csproj.Up2Date
-C:\workspace\ubigem-for-as\UbiCom.Net\obj\Debug\UbiCom.Net.dll
-C:\workspace\ubigem-for-as\UbiCom.Net\obj\Debug\UbiCom.Net.pdb

@@ -42,10 +42,10 @@
     <OutputPath>bin\x64\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <DebugType>full</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>7.3</LangVersion>
     <ErrorReport>prompt</ErrorReport>
-    <Prefer32Bit>true</Prefer32Bit>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
     <OutputPath>bin\x64\Release\</OutputPath>
@@ -62,17 +62,14 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="UbiSam.Common.Colors.WPF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\UbiSam.Common.Colors.WPF.dll</HintPath>
+    <Reference Include="UbiSam.Common.Colors.WPF">
+      <HintPath>..\..\BIN\UbiSam.Common.Colors.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="UbiSam.Common.Themes.Dark, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\UbiSam.Common.Themes.Dark.dll</HintPath>
+    <Reference Include="UbiSam.Common.Themes.Dark">
+      <HintPath>..\..\BIN\UbiSam.Common.Themes.Dark.dll</HintPath>
     </Reference>
-    <Reference Include="UbiSam.Common.Themes.WPF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\UbiSam.Common.Themes.WPF.dll</HintPath>
+    <Reference Include="UbiSam.Common.Themes.WPF">
+      <HintPath>..\..\BIN\UbiSam.Common.Themes.WPF.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />

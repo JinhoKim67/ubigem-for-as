@@ -17,3 +17,7 @@ C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Checker\obj\x64
 C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Checker\obj\x64\Debug\UbiSam.N.8460E3E8.Up2Date
 C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Checker\obj\x64\Debug\UbiSam.Net.KeyLock.Checker.exe
 C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Checker\obj\x64\Debug\UbiSam.Net.KeyLock.Checker.pdb
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Checker\bin\x64\Debug\UbiSam.Common.Colors.WPF.dll
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Checker\bin\x64\Debug\UbiSam.Common.Themes.Dark.dll
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Checker\bin\x64\Debug\UbiSam.Common.Themes.WPF.dll
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Checker\obj\x64\Debug\UbiSam.Net.KeyLock.Checker.exe.config

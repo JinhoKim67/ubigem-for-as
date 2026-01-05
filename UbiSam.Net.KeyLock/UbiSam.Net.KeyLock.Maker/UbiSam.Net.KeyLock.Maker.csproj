@@ -140,17 +140,14 @@
     <Reference Include="System.Xaml" />
     <Reference Include="System.XML" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="UbiSam.Common.Colors.WPF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\UbiSam.Common.Colors.WPF.dll</HintPath>
+    <Reference Include="UbiSam.Common.Colors.WPF">
+      <HintPath>..\..\BIN\UbiSam.Common.Colors.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="UbiSam.Common.Themes.Dark, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\UbiSam.Common.Themes.Dark.dll</HintPath>
+    <Reference Include="UbiSam.Common.Themes.Dark">
+      <HintPath>..\..\BIN\UbiSam.Common.Themes.Dark.dll</HintPath>
     </Reference>
-    <Reference Include="UbiSam.Common.Themes.WPF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\UbiSam.Common.Themes.WPF.dll</HintPath>
+    <Reference Include="UbiSam.Common.Themes.WPF">
+      <HintPath>..\..\BIN\UbiSam.Common.Themes.WPF.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>

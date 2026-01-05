@@ -6,7 +6,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/UbiSam.Common.Themes.Wpf;component/Themes/UbiSamTheme.Defaults.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/UbiSam.Common.Themes.WPF;component/Themes/UbiSamTheme.Defaults.xaml"/>
                 <ResourceDictionary Source="/UbiSam.Common.Colors.WPF;component/Themes/Recommended/Primary/UbiSamThemeColor.Blue.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>

@@ -33,7 +33,7 @@
     <ECID ID="101" Name="InitCommunicationState" Format="U1" Use="true" Value="3" />
     <ECID ID="102" Name="EstablishCommunicationsTimeout" Format="U2" Use="true" Value="10" />
     <ECID ID="103" Name="AreYouThereTimeout" Format="U1" Use="true" Value="10" />
-    <ECID ID="104" Name="TimeFormat" Format="U1" Use="true" Value="0" />
+    <ECID ID="104" Name="TimeFormat" Format="U1" Use="true" Value="1" />
     <ECID ID="105" Name="InitControlState" Format="U1" Use="true" Value="5" />
     <ECID ID="106" Name="OffLineSubState" Format="U1" Use="true" Value="1" />
     <ECID ID="107" Name="OnLineFailState" Format="U1" Use="true" Value="1" />
