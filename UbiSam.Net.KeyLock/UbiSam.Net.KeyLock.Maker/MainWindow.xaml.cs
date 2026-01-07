@@ -280,7 +280,6 @@ namespace UbiSam.Net.KeyLock.Maker
         {
             bool progress;
             string errorText;
-            bool dryRun = true; // KJH added
 
             StringBuilder sbProductMakingInfo;
 
@@ -306,22 +305,6 @@ namespace UbiSam.Net.KeyLock.Maker
                     MessageBox.Show("not completed before work");
                     return;
                 }
-
-                // KJH added
-                // ✅ Dry-run이면: 키락 체크(선택/카운트/코드검증/Confirm) 생략 + 실제 작업 생략
-                if (dryRun)
-                {
-                    this.NonProgress = false;
-                    this._stopProgress = false;
-
-                    System.Threading.Thread t = new System.Threading.Thread(new System.Threading.ThreadStart(MakeUSBKeylockWorker))
-                    {
-                        Name = "MakeUSBKeylockWorker_DryRun"
-                    };
-                    t.Start();
-                    return;
-                }
-                // KJH end
 
                 progress = true;
 
@@ -791,18 +774,64 @@ namespace UbiSam.Net.KeyLock.Maker
 
                 data = ProductConverter.Convert(list);
 
+                // KJH modified at 2026/01/05
+
                 result = this._mega.WriteProduct(data);
 
                 if (result == true)
                 {
                     readed = this._mega.ProductCode;
                     result = data != null && readed != null && data == readed;
+
+
+                    // MainWindow.cs - MakeMegaLock() 내부
+                    // WriteProduct 성공 직후 검증 부분 교체
+
+                    result = this._mega.WriteProduct(data);
+
+                    if (result == true)
+                    {
+                        // 커밋 지연/일시적인 구값 반환 대비: 재시도
+                        bool ok = false;
+
+                        for (int i = 0; i < 10; i++)
+                        {
+                            System.Threading.Thread.Sleep(200); // 필요 시 100~300ms 조정
+                            readed = this._mega.ReadProductCodeFromDevice(); // ✅ 장치에서 직접 읽기
+
+                            if (StringEqualsNormalized(data, readed))
+                            {
+                                ok = true;
+                                break;
+                            }
+                        }
+
+                        result = ok;
+                    }
+
                 }
+
+                // KJH end
 
             }
 
             return result;
         }
+
+        private static bool StringEqualsNormalized(string a, string b)
+        {
+            return Normalize(a) == Normalize(b);
+        }
+
+        private static string Normalize(string s)
+        {
+            return (s ?? "")
+                .Trim()
+                .TrimEnd('\0')
+                .Replace("\r", "")
+                .Replace("\n", "");
+        }
+
         #endregion
         #region MakeUSBKey
         private void MakeUSBKey(KeyLockInfo keyLockInfo, out string errorText)

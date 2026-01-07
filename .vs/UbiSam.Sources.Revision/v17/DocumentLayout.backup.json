@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{9FBFCB0E-C977-4275-B95E-E24E4C46D697}|UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.csproj|solutionrelative:ubisam.net.keylock\\ubisam.net.keylock\\licensechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9FBFCB0E-C977-4275-B95E-E24E4C46D697}|UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.csproj|C:\\workspace\\ubigem-for-as\\ubisam.net.keylock\\ubisam.net.keylock\\utilities\\mega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBFCB0E-C977-4275-B95E-E24E4C46D697}|UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.csproj|solutionrelative:ubisam.net.keylock\\ubisam.net.keylock\\utilities\\mega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{740BFC08-9959-4AF6-A427-1A16F624ECC0}|UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Maker\\UbiSam.Net.KeyLock.Maker.csproj|C:\\workspace\\ubigem-for-as\\ubisam.net.keylock\\ubisam.net.keylock.maker\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{740BFC08-9959-4AF6-A427-1A16F624ECC0}|UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Maker\\UbiSam.Net.KeyLock.Maker.csproj|solutionrelative:ubisam.net.keylock\\ubisam.net.keylock.maker\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96331E43-783A-480C-AF1B-90408AE5ED83}|UbiSam.GEM.Sample.CSharp\\UbiSam.GEM.Sample.CSharp.csproj|C:\\workspace\\ubigem-for-as\\ubisam.gem.sample.csharp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96331E43-783A-480C-AF1B-90408AE5ED83}|UbiSam.GEM.Sample.CSharp\\UbiSam.GEM.Sample.CSharp.csproj|solutionrelative:ubisam.gem.sample.csharp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E8BFD55-25B2-414E-9E27-A95E589EB6D6}|UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Checker\\UbiSam.Net.KeyLock.Checker.csproj|C:\\workspace\\ubigem-for-as\\ubisam.net.keylock\\ubisam.net.keylock.checker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,10 +38,6 @@
       "RelativeMoniker": "D:0:0:{36B668C3-B9E8-4E66-9FE8-E0EF29CFECBC}|UbiGEM.Net\\UbiGEM.Net.csproj|solutionrelative:ubigem.net\\driver\\gemdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96331E43-783A-480C-AF1B-90408AE5ED83}|UbiSam.GEM.Sample.CSharp\\UbiSam.GEM.Sample.CSharp.csproj|C:\\workspace\\ubigem-for-as\\ubisam.gem.sample.csharp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96331E43-783A-480C-AF1B-90408AE5ED83}|UbiSam.GEM.Sample.CSharp\\UbiSam.GEM.Sample.CSharp.csproj|solutionrelative:ubisam.gem.sample.csharp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\workspace\\ubigem-for-as\\UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Maker\\obj\\Debug\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Maker\\obj\\Debug\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -53,19 +57,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WpfXamlLoader.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\AppData\\Local\\Temp\\.vsdbgsrc\\cc40e6c9113e8e409e66507b58c06c87fa4d9cf9f4e297b5ae16de018dfbe2c9\\WpfXamlLoader.cs",
-              "RelativeDocumentMoniker": "..\\..\\Users\\USER\\AppData\\Local\\Temp\\.vsdbgsrc\\cc40e6c9113e8e409e66507b58c06c87fa4d9cf9f4e297b5ae16de018dfbe2c9\\WpfXamlLoader.cs",
-              "ToolTip": "C:\\Users\\USER\\AppData\\Local\\Temp\\.vsdbgsrc\\cc40e6c9113e8e409e66507b58c06c87fa4d9cf9f4e297b5ae16de018dfbe2c9\\WpfXamlLoader.cs",
-              "RelativeToolTip": "..\\..\\Users\\USER\\AppData\\Local\\Temp\\.vsdbgsrc\\cc40e6c9113e8e409e66507b58c06c87fa4d9cf9f4e297b5ae16de018dfbe2c9\\WpfXamlLoader.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAswHcAAAADAAAAAQAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Mega.cs",
+              "DocumentMoniker": "C:\\workspace\\ubigem-for-as\\UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock\\Utilities\\Mega.cs",
+              "RelativeDocumentMoniker": "UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock\\Utilities\\Mega.cs",
+              "ToolTip": "C:\\workspace\\ubigem-for-as\\UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock\\Utilities\\Mega.cs",
+              "RelativeToolTip": "UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock\\Utilities\\Mega.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAJAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T05:01:20.763Z"
+              "WhenOpened": "2026-01-05T01:46:43.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\workspace\\ubigem-for-as\\UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Checker\\App.xaml",
               "RelativeDocumentMoniker": "UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Checker\\App.xaml",
@@ -76,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\workspace\\ubigem-for-as\\UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Checker\\App.xaml.cs",
               "RelativeDocumentMoniker": "UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Checker\\App.xaml.cs",
@@ -88,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GemDriver.cs",
               "DocumentMoniker": "C:\\workspace\\ubigem-for-as\\UbiGEM.Net\\Driver\\GemDriver.cs",
               "RelativeDocumentMoniker": "UbiGEM.Net\\Driver\\GemDriver.cs",
@@ -106,38 +110,50 @@
               "RelativeDocumentMoniker": "UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock\\LicenseChecker.cs",
               "ToolTip": "C:\\workspace\\ubigem-for-as\\UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock\\LicenseChecker.cs",
               "RelativeToolTip": "UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock\\LicenseChecker.cs",
-              "ViewState": "AgIAACUGAAAAAAAAAAAswDAGAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAANMFAAAAAAAAAAAcwLAFAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T05:33:46.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\workspace\\ubigem-for-as\\UbiSam.GEM.Sample.CSharp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "UbiSam.GEM.Sample.CSharp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\workspace\\ubigem-for-as\\UbiSam.GEM.Sample.CSharp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "UbiSam.GEM.Sample.CSharp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAADwvzMAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T00:02:22.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\workspace\\ubigem-for-as\\UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Maker\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Maker\\MainWindow.xaml.cs",
               "ToolTip": "C:\\workspace\\ubigem-for-as\\UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Maker\\MainWindow.xaml.cs",
               "RelativeToolTip": "UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Maker\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAJ0DAAAAAAAAAAAAAKcDAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAowBoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T02:34:32.914Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WpfXamlLoader.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\AppData\\Local\\Temp\\.vsdbgsrc\\cc40e6c9113e8e409e66507b58c06c87fa4d9cf9f4e297b5ae16de018dfbe2c9\\WpfXamlLoader.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\USER\\AppData\\Local\\Temp\\.vsdbgsrc\\cc40e6c9113e8e409e66507b58c06c87fa4d9cf9f4e297b5ae16de018dfbe2c9\\WpfXamlLoader.cs",
+              "ToolTip": "C:\\Users\\USER\\AppData\\Local\\Temp\\.vsdbgsrc\\cc40e6c9113e8e409e66507b58c06c87fa4d9cf9f4e297b5ae16de018dfbe2c9\\WpfXamlLoader.cs",
+              "RelativeToolTip": "..\\..\\Users\\USER\\AppData\\Local\\Temp\\.vsdbgsrc\\cc40e6c9113e8e409e66507b58c06c87fa4d9cf9f4e297b5ae16de018dfbe2c9\\WpfXamlLoader.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswHcAAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T05:01:20.763Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\workspace\\ubigem-for-as\\UbiSam.GEM.Sample.CSharp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UbiSam.GEM.Sample.CSharp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\workspace\\ubigem-for-as\\UbiSam.GEM.Sample.CSharp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "UbiSam.GEM.Sample.CSharp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAgwHkGAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T00:02:22.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\workspace\\ubigem-for-as\\UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Maker\\App.xaml",
               "RelativeDocumentMoniker": "UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Maker\\App.xaml",
@@ -148,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MainWindow.g.cs",
               "DocumentMoniker": "C:\\workspace\\ubigem-for-as\\UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Maker\\obj\\Debug\\MainWindow.g.cs",
               "RelativeDocumentMoniker": "UbiSam.Net.KeyLock\\UbiSam.Net.KeyLock.Maker\\obj\\Debug\\MainWindow.g.cs",

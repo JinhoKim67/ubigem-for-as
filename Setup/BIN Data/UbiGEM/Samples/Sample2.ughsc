@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UbiGEM>
+  <Driver>
+    <Name>GEM_EQP_HOST</Name>
+    <Type>Host</Type>
+    <IsAsyncMode>true</IsAsyncMode>
+    <DeviceID>2</DeviceID>
+    <Mode>HSMS</Mode>
+    <MaxMessageSize>2097152</MaxMessageSize>
+    <LogEnabledSECS1>Hour</LogEnabledSECS1>
+    <LogEnabledSECS2>Hour</LogEnabledSECS2>
+    <LogEnabledSystem>Hour</LogEnabledSystem>
+    <LogExpirationDay>30</LogExpirationDay>
+    <LogPath>c:\Log</LogPath>
+    <HSMS>
+      <HSMSMode>Active</HSMSMode>
+      <RemoteIPAddress>127.0.0.1</RemoteIPAddress>
+      <RemotePortNo>7002</RemotePortNo>
+      <LocalIPAddress>127.0.0.1</LocalIPAddress>
+      <LocalPortNo>7002</LocalPortNo>
+      <Timeout>
+        <T3>45</T3>
+        <T5>10</T5>
+        <T6>5</T6>
+        <T7>10</T7>
+        <T8>5</T8>
+        <LinkTest>30</LinkTest>
+      </Timeout>
+    </HSMS>
+  </Driver>
+  <UGCFileName>C:\workspace\ubigem-for-as\Setup\BIN Data\UbiGEM\Samples\Sample2.ugc</UGCFileName>
+  <EquipmentConstants>
+    <ECID ID="101" Name="InitCommunicationState" Format="U1" Use="true" Value="3" />
+    <ECID ID="102" Name="EstablishCommunicationsTimeout" Format="U2" Use="true" Value="10" />
+    <ECID ID="103" Name="AreYouThereTimeout" Format="U1" Use="true" Value="10" />
+    <ECID ID="104" Name="TimeFormat" Format="U1" Use="true" Value="0" />
+    <ECID ID="105" Name="InitControlState" Format="U1" Use="true" Value="5" />
+    <ECID ID="106" Name="OffLineSubState" Format="U1" Use="true" Value="1" />
+    <ECID ID="107" Name="OnLineFailState" Format="U1" Use="true" Value="1" />
+    <ECID ID="108" Name="OnLineSubState" Format="U1" Use="true" Value="5" />
+    <ECID ID="109" Name="DeviceID" Format="A" Use="true" Value="2" />
+    <ECID ID="110" Name="IPAddress" Format="A" Use="true" Value="127.0.0.1" />
+    <ECID ID="111" Name="PortNumber" Format="U2" Use="true" Value="7002" />
+    <ECID ID="112" Name="ActiveMode" Format="Boolean" Use="true" Value="False" />
+    <ECID ID="113" Name="T3Timeout" Format="U2" Use="true" Value="45" />
+    <ECID ID="114" Name="T5Timeout" Format="U2" Use="true" Value="10" />
+    <ECID ID="115" Name="T6Timeout" Format="U2" Use="true" Value="5" />
+    <ECID ID="116" Name="T7Timeout" Format="U2" Use="true" Value="10" />
+    <ECID ID="117" Name="T8Timeout" Format="U2" Use="true" Value="5" />
+    <ECID ID="118" Name="LinkTestInterval" Format="U1" Use="true" Value="30" />
+    <ECID ID="119" Name="HeartbeatInterval" Format="U1" Use="true" Value="30" />
+  </EquipmentConstants>
+  <Variables>
+    <VID ID="1" Name="Clock" Format="A" Use="true" Value="" />
+    <VID ID="10" Name="PPChangeName" Format="A" Use="true" Value="" />
+    <VID ID="11" Name="PPChangeStatus" Format="U1" Use="true" Value="" />
+    <VID ID="12" Name="Alarmset" Format="L" Use="true" Value="">
+      <Childs />
+    </VID>
+    <VID ID="13" Name="PPStateChangedInfo" Format="L" Use="true" Value="">
+      <Childs />
+    </VID>
+    <VID ID="14" Name="ALID" Format="A" Use="true" Value="" />
+    <VID ID="2" Name="ControlState" Format="U1" Use="true" Value="" />
+    <VID ID="3" Name="ProcessState" Format="U1" Use="true" Value="" />
+    <VID ID="4" Name="PreviousProcessState" Format="U1" Use="true" Value="" />
+    <VID ID="5" Name="ChangedECID" Format="L" Use="true" Value="">
+      <Childs />
+    </VID>
+    <VID ID="6" Name="ChangedECV" Format="L" Use="true" Value="">
+      <Childs />
+    </VID>
+    <VID ID="7" Name="ChangedECList" Format="L" Use="true" Value="">
+      <Childs />
+    </VID>
+    <VID ID="8" Name="MDLN" Format="A" Use="true" Value="" />
+    <VID ID="9" Name="SOFTREV" Format="A" Use="true" Value="" />
+  </Variables>
+  <Reports>
+    <Report ID="1" IDList="109,2" />
+    <Report ID="2" IDList="109,7" />
+    <Report ID="3" IDList="109,4,3,12" />
+    <Report ID="4" IDList="109,13" />
+  </Reports>
+  <CollectionEvents>
+    <CEID ID="1" Enabled="true" IDList="1" />
+    <CEID ID="10" Enabled="true" IDList="" />
+    <CEID ID="11" Enabled="true" IDList="" />
+    <CEID ID="12" Enabled="false" IDList="" />
+    <CEID ID="2" Enabled="true" IDList="1" />
+    <CEID ID="3" Enabled="true" IDList="1" />
+    <CEID ID="4" Enabled="true" IDList="1" />
+    <CEID ID="5" Enabled="true" IDList="1" />
+    <CEID ID="6" Enabled="true" IDList="2" />
+    <CEID ID="7" Enabled="true" IDList="2" />
+    <CEID ID="8" Enabled="true" IDList="4" />
+    <CEID ID="9" Enabled="true" IDList="3" />
+  </CollectionEvents>
+  <Alarms>
+    <Alarm ID="1" Code="1" Description="Alarm 1" />
+    <Alarm ID="2" Code="2" Description="Alarm 2" />
+  </Alarms>
+  <RemoteCommands>
+    <RemoteCommand Command="START" AutoSend="false" Description="">
+      <ValueSetCollection>
+        <ValueSet Name="Default">
+          <Parameters>
+            <Parameter Name="CPNFIRMFLAG" Format="A" Count="0" GenerateRule="" Value="" />
+            <Parameter Name="MODELID" Format="A" Count="0" GenerateRule="" Value="" />
+            <Parameter Name="PPID" Format="A" Count="0" GenerateRule="" Value="" />
+            <Parameter Name="TOTAL_QTY" Format="A" Count="0" GenerateRule="" Value="" />
+            <Parameter Name="PROCESS_QTY" Format="A" Count="0" GenerateRule="" Value="" />
+          </Parameters>
+        </ValueSet>
+      </ValueSetCollection>
+      <Triggers />
+    </RemoteCommand>
+    <EnhancedRemoteCommand Command="PP_SELECT" AutoSend="false" DataID="" ObjSpec="" Description="">
+      <ValueSetCollection>
+        <ValueSet Name="Default">
+          <Parameters>
+            <Parameter Name="PPID" Format="A" Count="0" GenerateRule="" Value="" />
+            <Parameter Name="LOT_INFO" Format="L" Count="1" UseChildItem="true">
+              <Values>
+                <Value Name="LOTID" Format="A" Count="0" GenerateRule="" Value="" />
+              </Values>
+            </Parameter>
+          </Parameters>
+        </ValueSet>
+      </ValueSetCollection>
+      <Triggers />
+    </EnhancedRemoteCommand>
+  </RemoteCommands>
+  <FormattedProcessProgramCollection />
+  <GEMObjectCollection />
+  <SupervisedGEMObjectCollection />
+  <MapSetupDataCollection />
+  <MapDataType1Collection />
+  <MapDataType2Collection />
+  <MapDataType3Collection />
+  <GEMSetting>
+    <S10F3 TID="" TEXT="" />
+    <S10F5 TID="">
+      <TEXTs />
+    </S10F5>
+    <S12F19 MAOER="0" DATLC="0" />
+    <S14F1 SelectedObjectSpecifier="" SelectedObjectType="" />
+    <S14F3 SelectedObjectSpecifier="" SelectedObjectType="" />
+    <S14F5 SelectedObjectSpecifier="" />
+    <S14F7 SelectedObjectSpecifier="" />
+    <S14F9 SelectedObjectSpecifier="" SelectedObjectType="" />
+    <S14F11 SelectedObjectSpecifier="" />
+    <S14F13 SelectedObjectSpecifier="" />
+    <S14F17 SelectedObjectSpecifier="" />
+    <ACK>
+      <ACKItem Stream="1" Function="14" Use="false" Value="0" />
+      <ACKItem Stream="6" Function="2" Use="false" Value="0" />
+      <ACKItem Stream="6" Function="4" Use="false" Value="0" />
+      <ACKItem Stream="6" Function="10" Use="false" Value="0" />
+      <ACKItem Stream="6" Function="12" Use="false" Value="0" />
+      <ACKItem Stream="6" Function="14" Use="false" Value="0" />
+      <ACKItem Stream="6" Function="26" Use="false" Value="0" />
+      <ACKItem Stream="7" Function="4" Use="false" Value="0" />
+      <ACKItem Stream="7" Function="24" Use="false" Value="0" />
+      <ACKItem Stream="10" Function="2" Use="false" Value="0" />
+      <ACKItem Stream="12" Function="2" Use="false" Value="0" />
+      <ACKItem Stream="12" Function="6" Use="false" Value="0" />
+      <ACKItem Stream="12" Function="8" Use="false" Value="0" />
+      <ACKItem Stream="12" Function="10" Use="false" Value="0" />
+      <ACKItem Stream="12" Function="12" Use="false" Value="0" />
+    </ACK>
+    <UseReply>
+      <ReplyItem Stream="1" Function="1" Reply="true" />
+      <ReplyItem Stream="1" Function="13" Reply="true" />
+      <ReplyItem Stream="1" Function="19" Reply="true" />
+      <ReplyItem Stream="2" Function="1" Reply="true" />
+      <ReplyItem Stream="2" Function="3" Reply="true" />
+      <ReplyItem Stream="2" Function="5" Reply="true" />
+      <ReplyItem Stream="2" Function="11" Reply="true" />
+      <ReplyItem Stream="2" Function="17" Reply="true" />
+      <ReplyItem Stream="2" Function="25" Reply="true" />
+      <ReplyItem Stream="3" Function="5" Reply="true" />
+      <ReplyItem Stream="3" Function="7" Reply="true" />
+      <ReplyItem Stream="3" Function="9" Reply="true" />
+      <ReplyItem Stream="3" Function="11" Reply="true" />
+      <ReplyItem Stream="4" Function="1" Reply="true" />
+      <ReplyItem Stream="4" Function="3" Reply="true" />
+      <ReplyItem Stream="4" Function="5" Reply="true" />
+      <ReplyItem Stream="4" Function="7" Reply="true" />
+      <ReplyItem Stream="4" Function="9" Reply="true" />
+      <ReplyItem Stream="4" Function="11" Reply="true" />
+      <ReplyItem Stream="4" Function="13" Reply="true" />
+      <ReplyItem Stream="4" Function="15" Reply="true" />
+      <ReplyItem Stream="4" Function="17" Reply="true" />
+      <ReplyItem Stream="4" Function="23" Reply="true" />
+      <ReplyItem Stream="4" Function="27" Reply="true" />
+      <ReplyItem Stream="4" Function="31" Reply="true" />
+      <ReplyItem Stream="4" Function="33" Reply="true" />
+      <ReplyItem Stream="4" Function="35" Reply="true" />
+      <ReplyItem Stream="4" Function="37" Reply="true" />
+      <ReplyItem Stream="4" Function="39" Reply="true" />
+      <ReplyItem Stream="4" Function="41" Reply="true" />
+      <ReplyItem Stream="5" Function="1" Reply="true" />
+      <ReplyItem Stream="5" Function="9" Reply="true" />
+      <ReplyItem Stream="5" Function="11" Reply="true" />
+      <ReplyItem Stream="5" Function="15" Reply="true" />
+      <ReplyItem Stream="6" Function="1" Reply="true" />
+      <ReplyItem Stream="6" Function="3" Reply="true" />
+      <ReplyItem Stream="6" Function="5" Reply="true" />
+      <ReplyItem Stream="6" Function="9" Reply="true" />
+      <ReplyItem Stream="6" Function="11" Reply="true" />
+      <ReplyItem Stream="6" Function="13" Reply="true" />
+      <ReplyItem Stream="6" Function="25" Reply="true" />
+      <ReplyItem Stream="6" Function="27" Reply="true" />
+      <ReplyItem Stream="7" Function="1" Reply="true" />
+      <ReplyItem Stream="7" Function="3" Reply="true" />
+      <ReplyItem Stream="7" Function="5" Reply="true" />
+      <ReplyItem Stream="7" Function="7" Reply="true" />
+      <ReplyItem Stream="7" Function="9" Reply="true" />
+      <ReplyItem Stream="7" Function="23" Reply="true" />
+      <ReplyItem Stream="7" Function="25" Reply="true" />
+      <ReplyItem Stream="7" Function="27" Reply="true" />
+      <ReplyItem Stream="7" Function="29" Reply="true" />
+      <ReplyItem Stream="7" Function="33" Reply="true" />
+      <ReplyItem Stream="7" Function="35" Reply="true" />
+      <ReplyItem Stream="8" Function="1" Reply="true" />
+      <ReplyItem Stream="8" Function="3" Reply="true" />
+      <ReplyItem Stream="9" Function="1" Reply="true" />
+      <ReplyItem Stream="9" Function="3" Reply="true" />
+      <ReplyItem Stream="9" Function="5" Reply="true" />
+      <ReplyItem Stream="9" Function="7" Reply="true" />
+      <ReplyItem Stream="9" Function="9" Reply="true" />
+      <ReplyItem Stream="9" Function="11" Reply="true" />
+      <ReplyItem Stream="9" Function="13" Reply="true" />
+      <ReplyItem Stream="10" Function="1" Reply="true" />
+      <ReplyItem Stream="10" Function="7" Reply="true" />
+      <ReplyItem Stream="12" Function="1" Reply="true" />
+      <ReplyItem Stream="12" Function="3" Reply="true" />
+      <ReplyItem Stream="12" Function="5" Reply="true" />
+      <ReplyItem Stream="12" Function="7" Reply="true" />
+      <ReplyItem Stream="12" Function="9" Reply="true" />
+      <ReplyItem Stream="12" Function="11" Reply="true" />
+      <ReplyItem Stream="12" Function="13" Reply="true" />
+      <ReplyItem Stream="12" Function="15" Reply="true" />
+      <ReplyItem Stream="12" Function="17" Reply="true" />
+      <ReplyItem Stream="12" Function="19" Reply="true" />
+      <ReplyItem Stream="13" Function="1" Reply="true" />
+      <ReplyItem Stream="13" Function="3" Reply="true" />
+      <ReplyItem Stream="13" Function="5" Reply="true" />
+      <ReplyItem Stream="13" Function="7" Reply="true" />
+      <ReplyItem Stream="13" Function="9" Reply="true" />
+      <ReplyItem Stream="13" Function="11" Reply="true" />
+      <ReplyItem Stream="13" Function="13" Reply="true" />
+      <ReplyItem Stream="13" Function="15" Reply="true" />
+      <ReplyItem Stream="14" Function="1" Reply="true" />
+      <ReplyItem Stream="14" Function="3" Reply="true" />
+      <ReplyItem Stream="14" Function="5" Reply="true" />
+      <ReplyItem Stream="14" Function="7" Reply="true" />
+      <ReplyItem Stream="14" Function="9" Reply="true" />
+      <ReplyItem Stream="14" Function="11" Reply="true" />
+      <ReplyItem Stream="14" Function="13" Reply="true" />
+      <ReplyItem Stream="14" Function="15" Reply="true" />
+      <ReplyItem Stream="14" Function="17" Reply="true" />
+      <ReplyItem Stream="15" Function="19" Reply="true" />
+      <ReplyItem Stream="15" Function="21" Reply="true" />
+      <ReplyItem Stream="15" Function="23" Reply="true" />
+      <ReplyItem Stream="15" Function="25" Reply="true" />
+      <ReplyItem Stream="15" Function="37" Reply="true" />
+      <ReplyItem Stream="15" Function="39" Reply="true" />
+      <ReplyItem Stream="15" Function="41" Reply="true" />
+      <ReplyItem Stream="15" Function="43" Reply="true" />
+      <ReplyItem Stream="15" Function="45" Reply="true" />
+      <ReplyItem Stream="15" Function="47" Reply="true" />
+      <ReplyItem Stream="16" Function="7" Reply="true" />
+      <ReplyItem Stream="16" Function="9" Reply="true" />
+      <ReplyItem Stream="99" Function="1" Reply="true" />
+    </UseReply>
+    <ETC>
+      <AutoSendS1F13 Value="true" />
+    </ETC>
+  </GEMSetting>
+  <TraceDatas />
+  <LimitMonitorings />
+  <SECSMessages>
+    <SECSMessage Name="S99F1" Direction="Both" Stream="99" Function="1" WaitBit="true"><![CDATA[
+
+<X,-1 '' [USER_DATA]>
+
+]]></SECSMessage>
+    <SECSMessage Name="S99F2" Direction="Both" Stream="99" Function="2" WaitBit="false"><![CDATA[
+
+<X,-1 '' [USER_DATA]>
+
+]]></SECSMessage>
+  </SECSMessages>
+</UbiGEM>

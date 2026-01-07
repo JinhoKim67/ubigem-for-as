@@ -114,6 +114,41 @@ namespace UbiSam.Net.KeyLock.Utilities
             }
         }
 
+        // KJH added at 2026/01/05 Mega.cs (Mega 클래스 내부)
+        // ProductCode 프로퍼티 근처에 추가하면 됩니다.
+
+        public string ReadProductCodeFromDevice()
+        {
+            try
+            {
+                this._mutexCatched = this._mutex.WaitOne();
+            }
+            catch
+            {
+                this._mutexCatched = false;
+            }
+
+            try
+            {
+                if (this._mutexCatched == true)
+                {
+                    // 장치에서 실제로 읽어서 캐시(ProductCode)도 갱신
+                    this.ProductCode = this.ReadProduct();
+                }
+
+                return this.ProductCode;
+            }
+            finally
+            {
+                if (this._mutexCatched == true)
+                {
+                    this._mutex.ReleaseMutex();
+                }
+            }
+        }
+
+        // KJH end
+
         public bool WriteProduct(string data)
 
         {

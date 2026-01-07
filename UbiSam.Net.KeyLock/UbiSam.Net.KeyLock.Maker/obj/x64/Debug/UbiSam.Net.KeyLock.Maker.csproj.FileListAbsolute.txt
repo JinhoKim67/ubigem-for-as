@@ -1,6 +1,9 @@
 C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\bin\x64\Debug\UbiSam.Net.KeyLock.Maker.exe.config
 C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\bin\x64\Debug\UbiSam.Net.KeyLock.Maker.exe
 C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\bin\x64\Debug\UbiSam.Net.KeyLock.Maker.pdb
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\bin\x64\Debug\UbiSam.Common.Colors.WPF.dll
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\bin\x64\Debug\UbiSam.Common.Themes.Dark.dll
+C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\bin\x64\Debug\UbiSam.Common.Themes.WPF.dll
 C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\bin\x64\Debug\UbiSam.Net.KeyLock.dll
 C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\bin\x64\Debug\UbiSam.Net.KeyLock.pdb
 C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\x64\Debug\UbiSam.Net.KeyLock.Maker.csproj.AssemblyReference.cache
@@ -17,7 +20,3 @@ C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\x64\D
 C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\x64\Debug\UbiSam.N.F553DFB0.Up2Date
 C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\x64\Debug\UbiSam.Net.KeyLock.Maker.exe
 C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\x64\Debug\UbiSam.Net.KeyLock.Maker.pdb
-C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\obj\x64\Debug\UbiSam.Net.KeyLock.Maker.exe.config
-C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\bin\x64\Debug\UbiSam.Common.Colors.WPF.dll
-C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\bin\x64\Debug\UbiSam.Common.Themes.Dark.dll
-C:\workspace\ubigem-for-as\UbiSam.Net.KeyLock\UbiSam.Net.KeyLock.Maker\bin\x64\Debug\UbiSam.Common.Themes.WPF.dll
